@@ -1,0 +1,21 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;  
+}
+
+body {
+    margin: 0;
+    padding-top: 81px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(250, 247, 247);
+    font-family: Roboto,Arial;
+  
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the text color the same */
+}

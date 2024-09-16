@@ -1,0 +1,155 @@
+
+
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(231, 228, 228) ;
+    z-index: 1;
+    
+}
+
+.left-selection {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.youtube-logo {
+    height: 20px;
+    object-position: center;
+
+}
+
+.middle-selection {
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+   
+    margin-left: 60px;
+    margin-right: 35px;
+    max-width:600px;
+}
+
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    border-style: solid;
+    border-color: rgb(189, 185, 185);
+    border-width: 1px;
+    padding-left: 10px;
+    border-radius: 2px;
+    
+    width: 0px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-icon{
+    height: 24px;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-button {
+    height: 40px;
+    width:70px;
+    border-style: solid;
+    border-color: rgb(189, 185, 185);
+    background-color: rgb(247, 247, 247);
+    border-width: 1px;
+    margin-left: -1px;
+    
+}
+
+
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    
+    border: none;
+    border-radius: 25px;
+    border-color: rgb(189, 185, 185);
+    background-color: rgb(250, 248, 248);
+    
+    
+}
+
+.voice-icon {
+    height: 25px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: bottom;
+    
+    padding-top: 4px;
+}
+
+.right-selection {
+    
+    display: flex;
+    align-items: center;
+}
+
+.upload-icon {
+    height: 24px;
+    margin-right: 25px;
+
+}
+
+.youtube-apps-icon {
+    height: 24px;
+    margin-right: 25px;
+
+
+}
+
+.notification-icon {
+    height: 24px;
+    margin-right: 24px;
+    position: relative;
+}
+
+.notification-count {
+    position: absolute;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    right: 21px;
+    top: -2px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    border-width:0px ;
+    border-radius: 16px;
+    
+    padding: 1px 5px 1px 5px;
+}
+
+.current-user-picture {
+    height: 34px;
+    width: 32px;
+    margin-right: 26px;
+    border-radius: 16px;
+    
+    object-position: centre;
+    
+}
+
