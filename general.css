@@ -1,8 +1,6 @@
 p {
     font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10px;  
+    margin: 0 0 0 10px;
 }
 
 body {
@@ -10,12 +8,21 @@ body {
     padding-top: 81px;
     padding-left: 96px;
     padding-right: 24px;
-    background-color: rgb(250, 247, 247);
-    font-family: Roboto,Arial;
-  
+    background-color: white;
+    font-family: Roboto, Arial;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 55px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Keep the text color the same */
+    text-decoration: none;
+    color: inherit;
 }
