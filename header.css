@@ -131,13 +131,13 @@
     }
 
     .youtube-logo {
-        height: 30px;
+        height: 40px;
         width: 150px;
        padding-left: 14px;
     }
 
     .right-selection {
-        margin-right: 10px;
+        margin-right: -10px;
     }
 
     
