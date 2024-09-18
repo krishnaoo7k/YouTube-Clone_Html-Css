@@ -42,12 +42,18 @@
   row-gap: 40px;
 }
 
+<<<<<<< HEAD
 
 @media (min-width: 400px) and (max-width: 980px) {
   .video-grid {
       grid-template-columns: 1fr ;
       
       
+=======
+@media (min-width: 400px) and (max-width: 980px) {
+  .video-grid {
+      grid-template-columns: 1fr ;
+>>>>>>> origin/master
   }
   .video-info-grid {
     margin-top: 20px;
@@ -56,12 +62,16 @@
   
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 @media (min-width: 981px) and (max-width: 1100px) {
   .video-grid {
       grid-template-columns: 1fr 1fr;
   }
+<<<<<<< HEAD
  
   .thumbnail {
     border-radius: 10px;
@@ -73,6 +83,11 @@
   .video-author, .video-stats {
     font-size: 12px;
   }
+=======
+  .thumbnail {
+    border-radius: 10px;
+  }
+>>>>>>> origin/master
 }
 
 @media (min-width: 1101px)  {
@@ -82,6 +97,7 @@
   .thumbnail {
     border-radius: 10px;
   }
+<<<<<<< HEAD
   .video-title {
     font-size: 15px;
     font-weight: 500;
@@ -89,6 +105,8 @@
   .video-author, .video-stats {
     font-size: 12px;
   }
+=======
+>>>>>>> origin/master
 }
 
 .video-time {
